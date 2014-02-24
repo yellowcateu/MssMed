@@ -6,10 +6,30 @@
   <packaging>war</packaging>
   <name>MssMed Application</name>
   <dependencies>
-  	<dependency>
-  		<groupId>com.vaadin</groupId>
-  		<artifactId>vaadin</artifactId>
-  		<version>7.0.0.alpha3</version>
-  	</dependency>
+	  	<dependency>
+	  		<groupId>com.vaadin</groupId>
+	  		<artifactId>vaadin</artifactId>
+	  		<version>7.0.0.alpha3</version>
+	  	</dependency>
+		<dependency>
+		  <groupId>org.springframework</groupId>
+		  <artifactId>spring-core</artifactId>
+		  <version>2.0.3</version>
+		</dependency>
+		<dependency>
+		  <groupId>org.springframework</groupId>
+		  <artifactId>spring-beans</artifactId>
+		  <version>2.0.3</version>
+		</dependency>
+		<dependency>
+		  <groupId>org.springframework</groupId>
+		  <artifactId>spring-context</artifactId>
+		  <version>2.0.3</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring</artifactId>
+			<version>2.5.6.SEC03</version>
+		</dependency>
   </dependencies>
 </project>
